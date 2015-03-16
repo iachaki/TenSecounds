@@ -12,6 +12,8 @@
 {
     IBOutlet UILabel *label;
 }
+-(IBAction)start;
+-(IBAction)stop;
 
 @end
 
