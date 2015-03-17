@@ -13,9 +13,13 @@
     IBOutlet UILabel *countLabel;
     
     float count;//少数を入れる変数の型
+    
+    NSTimer *timer ;//NSTimerという参照型
 }
 -(IBAction)start;
 -(IBAction)stop;
+
+-(void)up;//upというメソッドを宣言、up→返り値も引数もないメソッド
 
 @end
 

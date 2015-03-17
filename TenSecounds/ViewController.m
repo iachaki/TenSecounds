@@ -20,6 +20,7 @@
     
     count = 0.0 ;
     countLabel.text = [NSString stringWithFormat:@"%.2f",count];
+    NSTimer *timer ;
 }
 
 - (void)didReceiveMemoryWarning {
