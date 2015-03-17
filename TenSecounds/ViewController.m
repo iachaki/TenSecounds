@@ -43,4 +43,13 @@
     }
 }
 
+-(IBAction)stop
+{
+    if ([timer isValid])//time isValid]==YESを省略した書き方
+    {
+        //タイマーが作動していたら、停止する
+        [timer invalidate];//タイマーを停止するメソッド
+    }
+}
+
 @end
