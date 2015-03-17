@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     count = 0.0 ;
-    countLabel.text = [NSString stringWithFormat:@"%f",count];
+    countLabel.text = [NSString stringWithFormat:@"%.2f",count];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -45,7 +45,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="label" destination="2oR-zW-qbP" id="Za2-XC-cRb"/>
+                        <outlet property="countLabel" destination="2oR-zW-qbP" id="emk-4s-qB2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
