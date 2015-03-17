@@ -52,4 +52,10 @@
     }
 }
 
+-(void)up
+{
+    count += 0.01;//count = count + 0.01を省略した書き方
+    countLabel.text=[NSString stringWithFormat:@"%.2f",count];
+}
+
 @end
