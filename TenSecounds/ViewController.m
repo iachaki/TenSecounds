@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    count = 0.0 ;
+    countLabel.text = [NSString stringWithFormat:@"%f",count];
 }
 
 - (void)didReceiveMemoryWarning {

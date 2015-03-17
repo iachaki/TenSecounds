@@ -10,7 +10,9 @@
 
 @interface ViewController : UIViewController
 {
-    IBOutlet UILabel *label;
+    IBOutlet UILabel *countLabel;
+    
+    float count;//少数を入れる変数の型
 }
 -(IBAction)start;
 -(IBAction)stop;
