@@ -28,4 +28,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)start
+{
+    //タイマーが動作しているか調べるメソッド
+    if (![timer isValid])//[time isValid]!=YESを省略した書き方
+    {
+    //既にタイマーが作動していなければ、開始する。
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.1
+                                                 target:self
+                                               selector:@selector(up)
+                                               userInfo:nil
+                                                repeats:YES
+                 ];//0.1秒ごとにupメソッドが呼ばれるようになる！
+    }
+}
+
 @end
