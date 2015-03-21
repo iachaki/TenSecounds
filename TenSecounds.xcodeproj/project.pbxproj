@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		085B723F1ABC14930043FB55 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 085B723D1ABC14930043FB55 /* start.png */; };
 		085B72401ABC14930043FB55 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 085B723E1ABC14930043FB55 /* stop.png */; };
+		085B72421ABDBB370043FB55 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 085B72411ABDBB370043FB55 /* clear.png */; };
 		08D2F6581AB1E4AF0009A8E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2F6571AB1E4AF0009A8E5 /* main.m */; };
 		08D2F65B1AB1E4AF0009A8E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2F65A1AB1E4AF0009A8E5 /* AppDelegate.m */; };
 		08D2F65E1AB1E4AF0009A8E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D2F65D1AB1E4AF0009A8E5 /* ViewController.m */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		085B723D1ABC14930043FB55 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
 		085B723E1ABC14930043FB55 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		085B72411ABDBB370043FB55 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
 		08D2F6521AB1E4AF0009A8E5 /* TenSecounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenSecounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D2F6561AB1E4AF0009A8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D2F6571AB1E4AF0009A8E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		08D2F6541AB1E4AF0009A8E5 /* TenSecounds */ = {
 			isa = PBXGroup;
 			children = (
+				085B72411ABDBB370043FB55 /* clear.png */,
 				085B723D1ABC14930043FB55 /* start.png */,
 				085B723E1ABC14930043FB55 /* stop.png */,
 				08D2F6591AB1E4AF0009A8E5 /* AppDelegate.h */,
@@ -208,6 +211,7 @@
 				08D2F6611AB1E4AF0009A8E5 /* Main.storyboard in Resources */,
 				085B72401ABC14930043FB55 /* stop.png in Resources */,
 				08D2F6661AB1E4AF0009A8E5 /* LaunchScreen.xib in Resources */,
+				085B72421ABDBB370043FB55 /* clear.png in Resources */,
 				085B723F1ABC14930043FB55 /* start.png in Resources */,
 				08D2F6631AB1E4AF0009A8E5 /* Images.xcassets in Resources */,
 			);

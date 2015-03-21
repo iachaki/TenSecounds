@@ -18,6 +18,7 @@
 }
 -(IBAction)start;
 -(IBAction)stop;
+-(IBAction)clear;
 
 -(void)up;//upというメソッドを宣言、up→返り値も引数もないメソッド
 
