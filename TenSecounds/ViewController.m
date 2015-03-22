@@ -45,7 +45,6 @@
 
 -(IBAction)stop
 {
-    count = 0.00;
     
     if ([timer isValid])//time isValid]==YESを省略した書き方
     {
@@ -55,6 +54,7 @@
 }
 
 -(IBAction)clear{
+    count = 0.00;
     if ([timer isValid])//time isValid]==YESを省略した書き方
     {
         //タイマーが作動していたら、停止する
