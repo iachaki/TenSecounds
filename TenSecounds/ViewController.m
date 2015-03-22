@@ -55,6 +55,9 @@
 
 -(IBAction)clear{
     count = 0.00;
+    countLabel.text = [NSString stringWithFormat:@"0.00"];
+    //clearbuttonを押すとcountLabelも0.00になるようにした
+    
     if ([timer isValid])//time isValid]==YESを省略した書き方
     {
         //タイマーが作動していたら、停止する
