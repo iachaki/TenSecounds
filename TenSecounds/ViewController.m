@@ -72,4 +72,10 @@
     countLabel.text=[NSString stringWithFormat:@"%.2f",count];
 }
 
+-(void)hantei{
+    if (count >= number - 0.20 && count <= number + 0.20) {
+        countLabel.text = [NSString stringWithFormat:@"PERFECT!!"];
+    }
+}
+
 @end

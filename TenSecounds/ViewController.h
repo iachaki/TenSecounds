@@ -15,12 +15,14 @@
     float count;//少数を入れる変数の型
     
     NSTimer *timer ;//NSTimerという参照型
+    
+    IBOutlet UILabel *hanteiLabel;
 }
 -(IBAction)start;
 -(IBAction)stop;
 -(IBAction)clear;
 
 -(void)up;//upというメソッドを宣言、up→返り値も引数もないメソッド
-
+-(void)hantei;
 @end
 
