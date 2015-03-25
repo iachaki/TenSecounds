@@ -17,6 +17,8 @@
     NSTimer *timer ;//NSTimerという参照型
     
     IBOutlet UILabel *hanteiLabel;
+    
+    int number;
 }
 -(IBAction)start;
 -(IBAction)stop;
