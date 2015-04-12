@@ -54,8 +54,8 @@
 }
 
 -(IBAction)clear{
-    count = 0.00;
-    countLabel.text = [NSString stringWithFormat:@"0.00"];
+    count = 0.0;
+    countLabel.text = [NSString stringWithFormat:@"0.0"];
     //clearbuttonを押すとcountLabelも0.00になるようにした
     
     if ([timer isValid])//time isValid]==YESを省略した書き方
@@ -68,12 +68,12 @@
 
 -(void)up
 {
-    count += 0.01;//count = count + 0.01を省略した書き方
-    countLabel.text=[NSString stringWithFormat:@"%.2f",count];
+    count += 0.1;//count = count + 0.01を省略した書き方
+    countLabel.text=[NSString stringWithFormat:@"%.f",count];
 }
 
 -(void)hantei{
-    if (count >= number - 0.20 && count <= number + 0.20) {
+    if (count >= number - 0.2 && count <= number + 0.2) {
         countLabel.text = [NSString stringWithFormat:@"PERFECT!!"];
     }
 }
