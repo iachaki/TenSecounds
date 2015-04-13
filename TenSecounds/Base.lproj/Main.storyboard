@@ -5,6 +5,30 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="NAI-td-MHO">
+            <objects>
+                <viewController id="w6e-cJ-TRM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yHy-E3-044"/>
+                        <viewControllerLayoutGuide type="bottom" id="5rn-AE-Ovs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tbe-54-n7m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stop-watch-backgraund.png" translatesAutoresizingMaskIntoConstraints="NO" id="v9P-m9-4pZ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WtI-4Z-en5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-281" y="137"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -64,6 +88,7 @@
     <resources>
         <image name="clear.png" width="284" height="102"/>
         <image name="start.png" width="320" height="144"/>
+        <image name="stop-watch-backgraund.png" width="640" height="1136"/>
         <image name="stop.png" width="284" height="102"/>
     </resources>
 </document>
